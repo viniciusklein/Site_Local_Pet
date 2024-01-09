@@ -104,7 +104,17 @@ main{
     position: relative;
     box-shadow: 0 1px 2px rgba(0,0,0,0,1);
     transition: all 0.6 cubic-bezier(0.165, 0.84, 0.44, 1);
+    width: 40%;
+    height: 40%;
 }
+
+#banho{
+
+  width: 40%;
+  height: 40%;
+
+}
+
 .imagem::after{
     position: absolute;
     width: 100%;
@@ -119,6 +129,7 @@ main{
 .imagem:hover::after{
     opacity: 1;
 }
+
 
 .article2 h1{
     font-family: var(--fonte-h1);
